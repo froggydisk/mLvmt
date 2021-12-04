@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">  
+  <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">  
+  <title>museLIVE release management tool</title>
+  <!-- <script type="text/javascript" src="/data.json"></script> -->
+  <script language="javascript"> 
+    var requiredfrom = "index.html";
+    if (document.referrer.indexOf(requiredfrom) == -1) { 
+    alert("Please Login :)"); 
+    window.location=requiredfrom; 
+    } 
+  </script> 
+</head>
+<body class="bg-gray-100">
+
+
+<!-- start navbar -->
+<div class="md:fixed md:w-full md:top-0 md:z-20 flex flex-row flex-wrap items-center bg-white p-6 border-b border-gray-300">
+    
+    <!-- logo -->
+    <div class="flex-none w-56 flex flex-row items-center">
+      <img src="img/fav.png" class="w-10 flex-none">
+      <a href="https://froggydisk.github.io/mLvmt/main.html"><strong class="lowercase ml-3 flex-1">muse<strong class="uppercase">LIVE</strong></strong></a>
+    </div>
+    <!-- end logo -->   
+
+    <!-- navbar content -->
+    <div id="navbar" class="animated md:hidden md:fixed md:top-0 md:w-full md:left-0 md:mt-16 md:border-t md:border-b md:border-gray-200 md:p-10 md:bg-white flex-1 pl-3 flex flex-row flex-wrap justify-between items-center md:flex-col md:items-center">
+      <!-- left -->
+      <div class="text-gray-600 md:w-full md:flex md:flex-row md:justify-evenly md:pb-10 md:mb-10 md:border-b md:border-gray-200">
+        <text>Release Version Management ( IOS / MAC / SERVER )</text>        
+      </div>
+      <!-- end left -->      
+
+    </div>
+    <!-- end navbar content -->
+
+  </div>
+<!-- end navbar -->
+
+
+<!-- strat wrapper -->
+<div class="h-screen flex flex-row flex-wrap">
+  
+    <!-- start sidebar -->
+  <div id="sideBar" class="relative flex flex-col flex-wrap bg-white border-r border-gray-300 p-6 flex-none w-64 md:-ml-64 md:fixed md:top-0 md:z-30 md:h-screen md:shadow-xl animated faster">
+    
+
+    <!-- sidebar content -->
+    <div class="flex flex-col">
+
+      <!-- sidebar toggle -->
+      <div class="text-right hidden md:block mb-4">
+        <button id="sideBarHideBtn">
+          <i class="fad fa-times-circle"></i>
+        </button>
+      </div>
+      <!-- end sidebar toggle -->
+
+      <p class="uppercase text-xs text-gray-600 mb-4 mt-4 tracking-wider">release list</p>
+
+      <!-- link -->
+      <a id= "release 0.8.8" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.8
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a id= "release 0.8.7" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.7
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a id= "release 0.8.6" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.6
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a id= "release 0.8.5" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.5
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a id= "release 0.8.4" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.4
+      </a>
+      <!-- end link -->
+
+      <!-- link -->
+      <a id= "release 0.8.3" onClick="reply_click(this.id)" href="#" class="mb-3 capitalize font-medium text-sm hover:text-teal-600 transition ease-in-out duration-500">
+        <i class="fad fa-calendar-edit text-xs mr-2"></i>
+        release 0.8.3
+      </a>
+      <!-- end link -->   
+      
+
+    </div>
+    <!-- end sidebar content -->
+
+  </div>
+  <!-- end sidbar -->
+
+  <!-- strat content -->
+  <div class="bg-gray-100 flex-1 p-6 md:mt-16"> 
+
+
+    <div class="mt-6 grid grid-cols-2 gap-6 xl:grid-cols-1">
+
+      <!-- update section -->
+      <div class="card bg-gray-600 border-gray-600 shadow-md text-white">
+          <div class="card-body">
+  
+              <!-- info -->
+              <div class="py-2 text-center">
+                  <p class="text-white text-xs">Release Version</p>
+                  <h1 class="h1 mb-2 release_version">0.8.8</h1>
+                  <p class="text-white text-xs">Release Date</p>
+                  <h1 class="h1 release_date">2021-12-03</h1>
+              </div>
+              <!-- end info -->
+  
+          </div>
+      </div>
+      <!-- end update section -->
+  
+      <!-- carts -->
+      <div class="card bg-gray-600 border-gray-600 shadow-md text-white">
+        <div class="card-body">
+
+            <!-- info -->
+            <div class="py-2">
+                <h1 class="h3 uppercase text-center sprint">sprint X</h1>
+                <p class="text-white text-xs ml-10">summary</p>
+                <ul class="mt-4 ml-10">
+                    <li class="text-sm font-light"><i class="fad fa-check-double mr-2 mb-2"></i> <text class="summary_1"></text></li>
+                    <li class="text-sm font-light"><i class="fad fa-check-double mr-2 mb-2"></i> <text class="summary_2"></text></li>
+                    <li class="text-sm font-light"><i class="fad fa-check-double mr-2 mb-2"></i> <text class="summary_3"></text></li>
+                </ul>
+            </div>
+            <!-- end info -->
+
+        </div>
+    </div>
+    <!-- start numbers -->
+      <div class="grid grid-cols-5 gap-6 xl:grid-cols-2"></div>
+    <!-- end numbers -->
+  
+  </div>
+
+    
+    <!-- General Report -->
+    <div class="grid grid-cols-3 gap-6 xl:grid-cols-1">
+
+
+    <!-- card -->
+    <!-- <div class="report-card"> -->
+      <div class="card">
+          <div class="card-body flex flex-col">
+              
+              <!-- top -->
+              <div class="flex flex-row justify-between items-center">
+                  <div class="h6 text-blue-600 fas fa-mobile-alt"></div>
+              </div>
+              <!-- end top -->
+
+              <!-- bottom -->
+              <div class="mt-8">
+                  <h1 class="h3 ios_version">x.x.x</h1>
+                  <p>IOS version</p>
+              </div>                
+              <!-- end bottom -->
+  
+          </div>
+      </div>
+    <!-- </div> -->
+    <!-- end card -->
+
+
+    <!-- card -->
+      <div class="card">
+          <div class="card-body flex flex-col">
+              
+              <!-- top -->
+              <div class="flex flex-row justify-between items-center">
+                  <div class="h6 text-blue-600 fas fa-laptop"></div>
+              </div>
+              <!-- end top -->
+
+              <!-- bottom -->
+              <div class="mt-8">
+                  <h1 class="h3 mac_version">x.x.x</h1>
+                  <p>Mac version</p>
+              </div>                
+              <!-- end bottom -->
+  
+          </div>
+      </div>
+    <!-- end card -->
+
+
+    <!-- card -->
+      <div class="card">
+          <div class="card-body flex flex-col">
+              
+              <!-- top -->
+              <div class="flex flex-row justify-between items-center">
+                  <div class="h6 text-blue-600 fal fa-server"></div>
+              </div>
+              <!-- end top -->
+
+              <!-- bottom -->
+              <div class="mt-8">
+                  <h1 class="h3 server_version">x.x.x</h1>
+                  <p>Server version</p>
+              </div>                
+              <!-- end bottom -->
+  
+          </div>
+      </div>
+    <!-- end card -->
+    
+
+</div>
+    <!-- End General Report -->
+
+    <!-- Sales Overview -->
+    <div class="card mt-6">
+
+    <!-- header -->
+    <div class="card-header">
+        <i class="far fa-calendar-check text-xs mr-2"></i>
+        Period of Use
+    </div>
+    <!-- end header -->
+
+    <!-- body -->
+    <div class="grid-cols-1 gap-6 lg:grid-cols-1">
+    
+        <div class="h-56">
+            <div id="chart"></div>
+        </div>
+    
+    </div>
+    <!-- end body -->
+
+</div>
+    <!-- end Sales Overview -->
+
+    <!-- start numbers -->
+    <div class="grid grid-cols-5 gap-6 xl:grid-cols-2">
+
+</div>
+    <!-- end numbers -->
+
+    <!-- start quick Info -->
+    <div class="grid grid-cols-3 gap-6 mt-6 xl:grid-cols-1">
+    
+    <!-- Start Recent Sales -->
+    <div class="card col-span-3 xl:col-span-1">
+      <div class="card-header">
+        <i class="fad fa-database text-xs mr-2"></i>
+        Archive
+      </div>
+
+      <table class="table-auto w-full text-left">
+          <thead class="text-gray-800">
+              <tr>
+                  <th class="px-4 py-2 border-r">Type</th>
+                  <th class="px-4 py-2 border-r">product</th>
+                  <th class="px-4 py-2 border-r">link</th>
+              </tr>
+          </thead>
+          <tbody class="text-gray-600">
+
+              <tr>                    
+                  <td class="border border-l-0 px-4 py-2 text-green-500">note</td>
+                  <td class="border border-l-0 px-4 py-2">release note 0.8.8 </td>
+                  <td class="border border-l-0 px-4 py-2 text-indigo-500"><a href=https://docs.google.com/spreadsheets/d/1EzK3ZsKZ7mHpChUUakvMEZbfmrjXN6z7/edit?usp=sharing&ouid=110659326706054606510&rtpof=true&sd=true>click!</a></td>
+              </tr>
+              <tr>                    
+                  <td class="border border-l-0 px-4 py-2 text-yellow-500">source</td>
+                  <td class="border border-l-0 px-4 py-2">github storage</td>
+                  <td class="border border-l-0 px-4 py-2 text-indigo-500"><a href="https://github.com/muselive-inc">click!</a></td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <!-- End Recent Sales -->
+    
+    <!-- Start Recent Sales -->
+    <div class="card col-span-3 xl:col-span-1">
+        <div class="card-header">
+          <i class="fad fa-apple-alt text-xs mr-2"></i>
+          Appstore Description
+        </div>
+
+        <table class="table-auto w-full text-left">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2 border-r">type</th>
+                    <th class="px-4 py-2 border-r">issue</th>
+                    <th class="px-4 py-2">no.</th>
+                </tr>
+            </thead>
+            <tbody class="text-gray-600">
+                <tr>                    
+                    <td class="border border-l-0 px-4 py-2">added</td>
+                    <td class="border border-l-0 px-4 py-2 description_added_1"></td>
+                    <td class="border border-l-0 border-r-0 px-4 py-2"></td>
+                </tr>
+                <tr>                    
+                    <td class="border border-l-0 px-4 py-2">revised</td>
+                    <td class="border border-l-0 px-4 py-2 description_revised_1"></td>                  
+                    <td class="border border-l-0 border-r-0 px-4 py-2"></td>
+                </tr>
+                <tr>                    
+                    <td class="border border-l-0 px-4 py-2">deprecated</td>
+                    <td class="border border-l-0 px-4 py-2 description_deprecated_1"></td>            
+                    <td class="border border-l-0 border-r-0 px-4 py-2"></td>
+                </tr>
+                <tr>                    
+                    <td class="border border-l-0 px-4 py-2">bugfix</td>
+                    <td class="border border-l-0 px-4 py-2 description_bugfix_1"></td>
+                    <td class="border border-l-0 border-r-0 px-4 py-2"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- End Recent Sales -->
+
+
+</div>
+    <!-- end quick Info -->
+        
+
+  </div>
+  <!-- end content -->
+
+</div>
+<!-- end wrapper -->  
+
+<!-- script -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="js/scripts.js"></script>   
+<!-- end script -->
+
+</body>
+</html>
