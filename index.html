@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- <script type="text/javascript" src="/data.json"></script> -->
+  <style>
+    body {
+      background-image: url('./img/background.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <meta property="og:image" content='./img/og.png'>
+</head>
+<body>
+  <script language="javascript"> 
+    function password() 
+    { 
+      while(true){
+        var pass = prompt('Enter Password',''); 
+        if (pass == "muselive") 
+        { 
+          alert('Welcome to museLIVE World!'); 
+          break;
+        } 
+        else { alert('You can do better :)'); 
+        }
+      } 
+    } 
+    function move()
+    {location.href='prod.html'}
+    setTimeout(() => {
+      document.write(password()); 
+      document.write(move()); 
+    }, 1000);
+  </script>
+</body>
+</html>
