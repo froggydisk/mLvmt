@@ -1,8 +1,8 @@
 let mydata = {
   // 0.8.8 version
-  "release 0.8.8":  
+  "release 1.0.1":  
   {
-    "release_version": '0.8.8',
+    "release_version": '1.0.1',
     "release_date": '2021-12-03',
     "sprint": 'sprint 13',
     "summary":{
@@ -11,17 +11,17 @@ let mydata = {
       "3": 'SNS service feature',
     },
     "ios": {
-      "version": '0.8.3',
+      "version": '1.0.1',
       "startdate": '2021-11-20',
       "enddate": '2021-12-03',
     },
     "mac": {
-      "version": '0.7.0',
+      "version": '0.8.3',
       "startdate": '2021-12-01',
       "enddate": '2021-12-03',
     },
     "server": {
-      "version": '0.6.0',
+      "version": '0.7.5',
       "startdate": '2021-11-25',
       "enddate": '2021-12-03',
     },
