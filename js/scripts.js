@@ -1,5 +1,5 @@
 let mydata = {
-  // 0.8.8 version
+  // 1.0.1 version
   "release 1.0.1":  
   {
     "release_version": '1.0.1',
